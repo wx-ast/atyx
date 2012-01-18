@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EB5FC041252548D001D1601 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB5FC031252548D001D1601 /* UIKit.framework */; };
+		0EB5FC061252548D001D1601 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB5FC051252548D001D1601 /* Foundation.framework */; };
+		0EB5FC081252548D001D1601 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB5FC071252548D001D1601 /* CoreGraphics.framework */; };
+		0EB5FC0D1252548D001D1601 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0EB5FC0B1252548D001D1601 /* InfoPlist.strings */; };
+		0EB5FC0F1252548D001D1601 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5FC0E1252548D001D1601 /* main.m */; };
+		0EB5FC121252548D001D1601 /* atyxAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5FC111252548D001D1601 /* atyxAppDelegate.m */; };
+		0EB5FC151252548D001D1601 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EB5FC131252548D001D1601 /* MainWindow.xib */; };
+		0EB5FC181252548D001D1601 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5FC171252548D001D1601 /* ListViewController.m */; };
+		0EB5FC1B1252548D001D1601 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EB5FC191252548D001D1601 /* RootViewController.xib */; };
+		0EFB09C314C45D44008757D9 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFB09C214C45D44008757D9 /* WebViewController.m */; };
+		0EFB09D314C47E5F008757D9 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EFB09D214C47E5F008757D9 /* MainViewController.xib */; };
+		0EFB09D614C48016008757D9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFB09D514C48016008757D9 /* MainViewController.m */; };
+		0EFB09E114C48FC6008757D9 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFB09DD14C48FC6008757D9 /* logo.png */; };
+		0EFB09E214C48FC6008757D9 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFB09DE14C48FC6008757D9 /* logo@2x.png */; };
+		0EFB09E414C48FF2008757D9 /* icon_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFB09E314C48FF2008757D9 /* icon_57x57.png */; };
+		0EFB09E614C49003008757D9 /* icon_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EFB09E514C49002008757D9 /* icon_114x114.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0EB5FC001252548D001D1601 /* atyx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = atyx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EB5FC031252548D001D1601 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0EB5FC051252548D001D1601 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0EB5FC071252548D001D1601 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0EB5FC091252548D001D1601 /* atyx-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "atyx-Info.plist"; sourceTree = "<group>"; };
+		0EB5FC0A1252548D001D1601 /* atyx_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = atyx_Prefix.pch; sourceTree = "<group>"; };
+		0EB5FC0C1252548D001D1601 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0EB5FC0E1252548D001D1601 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0EB5FC101252548D001D1601 /* atyxAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = atyxAppDelegate.h; sourceTree = "<group>"; };
+		0EB5FC111252548D001D1601 /* atyxAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = atyxAppDelegate.m; sourceTree = "<group>"; };
+		0EB5FC141252548D001D1601 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		0EB5FC161252548D001D1601 /* ListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		0EB5FC171252548D001D1601 /* ListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		0EB5FC1A1252548D001D1601 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		0EFB09C114C45D44008757D9 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		0EFB09C214C45D44008757D9 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		0EFB09D214C47E5F008757D9 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		0EFB09D414C48016008757D9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0EFB09D514C48016008757D9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		0EFB09DD14C48FC6008757D9 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = images/logo.png; sourceTree = "<group>"; };
+		0EFB09DE14C48FC6008757D9 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo@2x.png"; path = "images/logo@2x.png"; sourceTree = "<group>"; };
+		0EFB09E314C48FF2008757D9 /* icon_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_57x57.png; sourceTree = "<group>"; };
+		0EFB09E514C49002008757D9 /* icon_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_114x114.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EB5FBFD1252548D001D1601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB5FC041252548D001D1601 /* UIKit.framework in Frameworks */,
+				0EB5FC061252548D001D1601 /* Foundation.framework in Frameworks */,
+				0EB5FC081252548D001D1601 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EB5FBF11252548C001D1601 = {
+			isa = PBXGroup;
+			children = (
+				0EFB099014C33735008757D9 /* images */,
+				0EB5FBF81252548C001D1601 /* Classes */,
+				0EB5FBF91252548D001D1601 /* Other Sources */,
+				0EB5FBFA1252548D001D1601 /* Resources */,
+				0EB5FBFB1252548D001D1601 /* Frameworks */,
+				0EB5FC011252548D001D1601 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EB5FBF81252548C001D1601 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0EFB09C114C45D44008757D9 /* WebViewController.h */,
+				0EFB09C214C45D44008757D9 /* WebViewController.m */,
+				0EB5FC101252548D001D1601 /* atyxAppDelegate.h */,
+				0EB5FC111252548D001D1601 /* atyxAppDelegate.m */,
+				0EB5FC161252548D001D1601 /* ListViewController.h */,
+				0EB5FC171252548D001D1601 /* ListViewController.m */,
+				0EFB09D214C47E5F008757D9 /* MainViewController.xib */,
+				0EFB09D414C48016008757D9 /* MainViewController.h */,
+				0EFB09D514C48016008757D9 /* MainViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0EB5FBF91252548D001D1601 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0EB5FC0A1252548D001D1601 /* atyx_Prefix.pch */,
+				0EB5FC0E1252548D001D1601 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		0EB5FBFA1252548D001D1601 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0EB5FC091252548D001D1601 /* atyx-Info.plist */,
+				0EB5FC0B1252548D001D1601 /* InfoPlist.strings */,
+				0EB5FC131252548D001D1601 /* MainWindow.xib */,
+				0EB5FC191252548D001D1601 /* RootViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0EB5FBFB1252548D001D1601 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EB5FC031252548D001D1601 /* UIKit.framework */,
+				0EB5FC051252548D001D1601 /* Foundation.framework */,
+				0EB5FC071252548D001D1601 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0EB5FC011252548D001D1601 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EB5FC001252548D001D1601 /* atyx.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EFB099014C33735008757D9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0EFB09E514C49002008757D9 /* icon_114x114.png */,
+				0EFB09E314C48FF2008757D9 /* icon_57x57.png */,
+				0EFB09DD14C48FC6008757D9 /* logo.png */,
+				0EFB09DE14C48FC6008757D9 /* logo@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EB5FBFF1252548D001D1601 /* atyx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EB5FC1E1252548D001D1601 /* Build configuration list for PBXNativeTarget "atyx" */;
+			buildPhases = (
+				0EB5FBFC1252548D001D1601 /* Sources */,
+				0EB5FBFD1252548D001D1601 /* Frameworks */,
+				0EB5FBFE1252548D001D1601 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = atyx;
+			productName = atyx;
+			productReference = 0EB5FC001252548D001D1601 /* atyx.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EB5FBF31252548C001D1601 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0EB5FBF61252548C001D1601 /* Build configuration list for PBXProject "atyx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0EB5FBF11252548C001D1601;
+			productRefGroup = 0EB5FC011252548D001D1601 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EB5FBFF1252548D001D1601 /* atyx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EB5FBFE1252548D001D1601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB5FC0D1252548D001D1601 /* InfoPlist.strings in Resources */,
+				0EB5FC151252548D001D1601 /* MainWindow.xib in Resources */,
+				0EB5FC1B1252548D001D1601 /* RootViewController.xib in Resources */,
+				0EFB09D314C47E5F008757D9 /* MainViewController.xib in Resources */,
+				0EFB09E114C48FC6008757D9 /* logo.png in Resources */,
+				0EFB09E214C48FC6008757D9 /* logo@2x.png in Resources */,
+				0EFB09E414C48FF2008757D9 /* icon_57x57.png in Resources */,
+				0EFB09E614C49003008757D9 /* icon_114x114.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EB5FBFC1252548D001D1601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB5FC0F1252548D001D1601 /* main.m in Sources */,
+				0EB5FC121252548D001D1601 /* atyxAppDelegate.m in Sources */,
+				0EB5FC181252548D001D1601 /* ListViewController.m in Sources */,
+				0EFB09C314C45D44008757D9 /* WebViewController.m in Sources */,
+				0EFB09D614C48016008757D9 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0EB5FC0B1252548D001D1601 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EB5FC0C1252548D001D1601 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0EB5FC131252548D001D1601 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EB5FC141252548D001D1601 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		0EB5FC191252548D001D1601 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EB5FC1A1252548D001D1601 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EB5FC1C1252548D001D1601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		0EB5FC1D1252548D001D1601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+		0EB5FC1F1252548D001D1601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = atyx_Prefix.pch;
+				INFOPLIST_FILE = "atyx-Info.plist";
+				PRODUCT_NAME = atyx;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0EB5FC201252548D001D1601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = atyx_Prefix.pch;
+				INFOPLIST_FILE = "atyx-Info.plist";
+				PRODUCT_NAME = atyx;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EB5FBF61252548C001D1601 /* Build configuration list for PBXProject "atyx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EB5FC1C1252548D001D1601 /* Debug */,
+				0EB5FC1D1252548D001D1601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EB5FC1E1252548D001D1601 /* Build configuration list for PBXNativeTarget "atyx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EB5FC1F1252548D001D1601 /* Debug */,
+				0EB5FC201252548D001D1601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EB5FBF31252548C001D1601 /* Project object */;
+}
